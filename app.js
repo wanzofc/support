@@ -4,7 +4,7 @@ const axios = require('axios');
 const path = require('path'); // Menambahkan modul path untuk menangani path file
 
 const app = express();
-const PORT = 3000; // Menghapus penggunaan process.env.PORT
+const PORT = 8080; // Menghapus penggunaan process.env.PORT
 
 app.use(cors());
 app.use(express.json());
